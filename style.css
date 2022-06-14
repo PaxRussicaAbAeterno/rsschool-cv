@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(#CEAFCE, #F5EFF5);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    /* display: flex;
+    flex-direction: row; */
+    /* justify-content: space-around; */
+}
+
+.header-inner {
+    color: white;
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.nav {
+    height: 100%;
+}
+
+
+.nav-list {
+
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    display: inline;
+    padding-left: 50px;
+    font-size: 26px;
+    text-transform: capitalize;
+}
+
+
+.nav-item a, .home-button a {
+    text-decoration: none;
+    color: white;
+}
+
+.section {
+    /* border: 1px solid black; */
+}
+
+.main-inner {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.description {
+    color: white;
+    font-weight: bold;
+    font-size: 54px;
+    text-shadow: 3px 3px 3px #000;
+}
+
+.avatar {
+    width: 300px;
+}
+
+.section-heading {
+    font-size: 32px;
+    padding-left: 100px;
+}
+
+.about-me-description {
+    font-size: 18px;
+    font-weight: 600;
+    font-style: italic;
+    width: 30%;
+    padding-left: 75px;
+    padding-bottom: 20px;
+}
+
+.skill-list {
+    list-style: none;
+    columns: 2;
+    font-size: 32px;
+}
+
+.code-example-container {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    width: 300px;
+    height: 150px;
+    background: radial-gradient(lightblue, transparent);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.code-example-container pre, code {
+    white-space: pre-line;
+}
+
+.languages-list {
+    list-style: none;
+    columns: 2;
+}
+
+.languages-list-item {
+    font-size: 32px;
+}
+
+.languages-list-item img {
+    width: 32px;
+}
+
+.footer {
+    background-color: black;
+}
+.contacts-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts-list-item {
+    display: inline;
+    padding-left: 100px;
+}
+
+.contacts-list-item a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-inner {
+    height: 100px;
+    font-size: 24px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rs-school-logo {
+    height: 30px;
+    filter: invert(100%);
+}
